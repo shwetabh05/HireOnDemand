@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+h1 {
+    color: rgb(9, 9, 38);
+    font-size: 70px;
+    text-align: center;
+}
+
+.btn button {
+    display: inline-block;
+    background-color: #7b38d8;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+}
+.btn button a{
+    color: #ffffff;
+    text-decoration: none;
+}
