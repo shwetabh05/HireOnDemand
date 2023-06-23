@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Job Posting</title>
+</head>
+<body>
+    <h1>Recruiter</h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="company" id="label-company">Company Name</label>
+            <input type="text" id="company" placeholder="Enter your Company name" />
+        </div>
+        <div class="form-control">
+            <label for="contact" id="label-contact">Contact Person</label>
+            <input type="text" id="contact" placeholder="Enter your Full name" />
+        </div>
+        <div class="form-control">
+            <label for="number" id="label-number">Contact Number</label>
+            <input type="text" id="Number" placeholder="Enter your Contact Number" />
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="text" id="email" placeholder="Enter your Email" />
+        </div>
+        <div class="form-control">
+            <label>Job Posting
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">Cleaner</input>
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Cashier</input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">Warehouse Assistant</input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Sales</input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Waiter</input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">Bartender</input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">House Keeping</input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Others</input>
+                <input type="text" id="others" placeholder="Mention your Job Posting" />
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="location" id="label-location">Location in HK <small>(for multiple location, seperate by comma)</small></label>
+            <input type="text" id="location" placeholder="Enter the Job Location " />
+        </div>
+        <div class="form-control">
+            <label for="salary" id="label-salary">Salary (per hour)</label>
+            <input type="text" id="salary" placeholder="Enter the figure" />
+        </div>
+        <button type="submit" value="submit"><a href="index.html">Submit</a></button>
+    </form>
+</body>
+</html>
